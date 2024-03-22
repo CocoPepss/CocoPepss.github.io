@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+header {
+    padding: 10px 30px;
+    background-color:darkgray;
+}
+h1 {
+    color: blue;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav a {
+    margin-left: 35px;
+  }
