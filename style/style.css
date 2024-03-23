@@ -4,16 +4,25 @@
 header {
     padding: 10px 30px;
     background-color:darkgray;
+    
+    font-family: "Exo 2", sans-serif; /**/
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;    font-size: 1.4em
 }
 h1 {
     color: blue;
 }
 nav {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-
 }
-nav a {
-    margin-left: 35px;
-  }
+.nav-reseaux { 
+    margin-left: 5px;
+}
+.nav-menu {
+    margin: 15px
+}
